@@ -25,14 +25,7 @@ const allowedOrigins = (process.env.FRONTEND_URL || '')
   .filter(Boolean);
 
 const corsOptions = {
-  origin: (origin, callback) => {
-    // Requests sin origin (health checks/server-to-server) se permiten.
-    if (!origin) return callback(null, true);
-    // En local dev, se permite localhost aunque FRONTEND_URL no este definido.
-    if (origin.startsWith('http://localhost:')) return callback(null, true);
-    if (allowedOrigins.includes(origin)) return callback(null, true);
-    return callback(new Error('Origen no permitido por CORS'));
-  }
+  origin: '*'
 };
 
 app.use(cors(corsOptions));
