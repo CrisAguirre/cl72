@@ -1,16 +1,18 @@
 module.exports = [
   {
-    username: 'admin_cl7',
-    password: 'CL7admin2026',
+    username: 'admin',
+    password: '@dmin#2026*cl5',
     role: 'admin',
-    displayName: 'Administrador CL7',
-    userId: 'admin_001'
+    displayName: 'Administrador',
+    userId: 'admin_001',
+    correo: 'admin@cl5.com'
   },
   {
-    username: 'estudiante_demo',
-    password: 'CL7demo2026',
+    username: 'estudiante',
+    password: '3studi@nt32026*cl5',
     role: 'estudiante',
-    displayName: 'Estudiante Demo',
-    userId: 'est_001'
+    displayName: 'Estudiante Invitado',
+    userId: 'est_001',
+    correo: 'estudiante@cl5.com'
   }
 ];
