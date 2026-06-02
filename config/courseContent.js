@@ -7,7 +7,7 @@ const q = (id, prompt, options, correctOptionIndex) => ({ id, prompt, options, c
 
 const course = {
   courseId: 'cl7-2026',
-  title: 'Comprensión Lectora — Grado Séptimo',
+  title: 'Comprensión Lectora — Grado Quinto',
   description: 'Curso virtual de 8 unidades para fortalecer comprensión lectora en niveles semántico, sintáctico y pragmático, con recursos digitales y evaluaciones formativas.',
   grade: '7',
   durationWeeks: 4,
