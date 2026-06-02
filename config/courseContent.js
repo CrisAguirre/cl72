@@ -1,5 +1,5 @@
 /**
- * Curso Comprensión Lectora 7 — 8 unidades (Contenido del Curso en Línea).
+ * Curso Comprensión Lectora 5to — 8 unidades (Contenido del Curso en Línea).
  * Estructura pedagógica: inicio → desarrollo → cierre → evaluación (plan de asignatura).
  */
 

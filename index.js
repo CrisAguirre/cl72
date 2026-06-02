@@ -45,7 +45,7 @@ app.get('/health', (req, res) => {
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'API Comprension Lectora 7',
+    message: 'API Comprension Lectora 5to',
     version: '1.0.0',
     database: 'cl7'
   });
